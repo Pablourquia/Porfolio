@@ -1,0 +1,170 @@
+body {
+    background-color: #093542;
+    margin: 0;
+    font-family: 'American Typewriter', serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.page {
+    background-color: #ffffff;
+    padding: 40px;
+    max-width: 1200px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    color: #2c3e50;
+    font-size: 3em;
+    margin: 0;
+}
+
+.header p {
+    color: #7f8c8d;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.habilities {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.habilities h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.habilities ul {
+    padding-left: 20px;
+    margin-left: 0;
+    list-style-position: inside;
+}
+
+.habilities li {
+    color: #7f8c8d;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+.projects {
+    margin-bottom: 40px;
+}
+
+.projects h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project h3 {
+    color: #56879b;
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.project p {
+    color: #7f8c8d;
+    font-size: 1em;
+    margin: 0 0 10px;
+}
+
+.interactive-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+}
+
+.interactive-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.Tecnologías {
+    margin-bottom: 40px;
+}
+
+.Tecnologías h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tecnologias-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tecnología {
+    margin: 10px;
+    text-align: center;
+}
+
+.tecnología img {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tecnología img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    text-align: center;
+    background-color: #56879b;
+}
+
+.contact h2 {
+    color: black;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.git img {
+    width: 60px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.git img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
